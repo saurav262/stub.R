@@ -1,9 +1,6 @@
-# stub.R
 ## my function description of what is done as its inverse
 ## for this occasion with the functions we create a special object, an array
 ## which stores cache in its reverse
-##para esta ocasion con las funciones creamos un objeto especial , una matriz
-##que almacena cache en su inversa
 ## stores an array and caches its inverse.
 
 makeCacheMatrix <- function(x = matrix()){
@@ -19,9 +16,7 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-########################
-#la segunda que vamos calcular es la inversa de la matrix creada de makecachematrix 
-#recuperamos la inversa en caso tal que no ha cambiado
+
 
 cacheSolve <- function(x, ...){
   inv <- x$getInverse()
